@@ -20,6 +20,13 @@ li {
     list-style: circle;
 }
 
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center
+}
+
 .list {
     list-style: square;
 }
@@ -38,9 +45,9 @@ li {
 }
 
 .btn {
-    position: absolute;
-    top: 20px;
-    left: 250px;
+    position: relative;
+    top: 10%;
+    left: 50%;
     height: 50px;
     width: 50px;
     border-radius: 50%;
