@@ -1,33 +1,11 @@
-:root {
-    --green: #00FF00;
-    --white: #ffffff;
-    --black: #000000;
+body{
+    text-align: center;
+    font-family: Sans-Serif;
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #444;
+    padding: 0;
 }
-
-* {
-    color: var(--fontColor);
-    font-family: helvetica;
-}
-body {
-    background: var(--bg)
-}
-ul {
-    font-family: helvetica;
-}
-li {
-    list-style: circle;
-}
-
-.center {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    text-align: center
-}
-
-.light-theme {
-    --bg: var(--green);
-    --fontColor: var(--black);
-    --btnBg: var(--black);
-    --btnFontColor: var(--white);
-}
+h1,h2,h3{line-height: 1.2}
