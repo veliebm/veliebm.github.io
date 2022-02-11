@@ -11,11 +11,9 @@
 body {
     background: var(--bg)
 }
-
 ul {
     font-family: helvetica;
 }
-
 li {
     list-style: circle;
 }
@@ -25,10 +23,6 @@ li {
     width: 50%;
     padding: 10px;
     text-align: center
-}
-
-.list {
-    list-style: square;
 }
 
 .light-theme {
