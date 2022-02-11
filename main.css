@@ -23,4 +23,5 @@ footer {
 }
 footer > * {
     margin: 10px;
+    white-space: nowrap;
 }
