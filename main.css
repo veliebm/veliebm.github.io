@@ -1,20 +1,20 @@
 :root {
   --text-color: #444;
   --bg-color: white;
-  --green: #04AA6D;
-  --light-grey: #ddd;
+  --active-color: #04AA6D;
+  --hover-color: #ddd;
 }
 
 body {
   font-family: Sans-Serif;
-  margin: 40px auto;
+  margin: 10px auto;
   max-width: 650px;
   line-height: 1.6;
   font-size: 18px;
   color: var(--text-color);
 }
 body > * {
-  padding: 0px 10px 0px 10px;
+  padding: 0px 10px;
 }
 
 h1 {
@@ -24,23 +24,32 @@ h1,h2,h3 {
   line-height: 1.2
 }
 
+/* Style the navigation bar */
+.topnav {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
-  color: var(--text-color);
+  float: left;
+  display: block;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
   font-size: 17px;
+  color: var(--text-color);
+  text-decoration: none;
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
-  background-color: var(--light-grey);
+.topnav a:hover:not(.active) {
+  background-color: var(--hover-color);
   color: var(--text-color);
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: var(--green);
+  background-color: var(--active-color);
   color: var(--bg-color);
 }
