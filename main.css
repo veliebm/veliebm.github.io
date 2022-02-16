@@ -13,7 +13,7 @@ body {
   font-size: 18px;
   color: var(--text-color);
 }
-body > * {
+body > div {
   padding: 0px 10px;
 }
 
@@ -22,6 +22,10 @@ h1 {
 }
 h1,h2,h3 {
   line-height: 1.2
+}
+
+ul {
+  padding: 0;
 }
 
 /* Style the navigation bar */
