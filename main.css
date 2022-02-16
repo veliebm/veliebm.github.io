@@ -7,7 +7,7 @@
 
 body {
   font-family: Sans-Serif;
-  margin: 10px auto;
+  margin: 0px auto;
   max-width: 650px;
   line-height: 1.6;
   font-size: 18px;
@@ -29,6 +29,8 @@ h1,h2,h3 {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
 }
 
 /* Style the links inside the navigation bar */
@@ -36,7 +38,7 @@ h1,h2,h3 {
   float: left;
   display: block;
   text-align: center;
-  padding: 14px 16px;
+  padding: 8px 10px;
   font-size: 17px;
   color: var(--text-color);
   text-decoration: none;
