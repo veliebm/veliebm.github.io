@@ -1,10 +1,17 @@
+:root {
+  --text-color: #444;
+  --bg-color: white;
+  --green: #04AA6D;
+  --light-grey: #ddd;
+}
+
 body {
   font-family: Sans-Serif;
   margin: 40px auto;
   max-width: 650px;
   line-height: 1.6;
   font-size: 18px;
-  color: #444;
+  color: var(--text-color);
 }
 body > * {
   padding: 0px 10px 0px 10px;
@@ -17,11 +24,23 @@ h1,h2,h3 {
   line-height: 1.2
 }
 
-footer {
-  margin-top: 40px;
-  text-align: center
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: var(--text-color);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
-footer > * {
-  margin: 10px;
-  white-space: nowrap;
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: var(--light-grey);
+  color: var(--text-color);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: var(--green);
+  color: var(--bg-color);
 }
